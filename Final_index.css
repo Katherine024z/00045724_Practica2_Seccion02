@@ -1,0 +1,32 @@
+/* Contenedor con 3 columnas */
+.contenedor {
+  display: grid;
+  grid-template-columns: 250px 100px 250px; /* Tres columnas de diferentes anchos */
+  grid-template-rows: auto auto auto; /* Tres filas donde su altura depende del contenido */
+  column-gap: 5px; /* Espacio entre columnas */
+  row-gap: 5px; /* Espacio entre filas */
+  align-items: center; /* Alinea verticalmente los elementos al centro */
+  justify-content: center; /* Centra horizontalmente el contenedor */
+}
+
+/* Ajuste para imágenes */
+.contenedor img.caja {
+  border: 2px solid #ff5500;
+  max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+  max-height: 100px; /* Limita la altura máxima de la imagen */
+  object-fit: contain /* Mantiene la proporción de la imagen */
+}
+
+/* Estilos generales para párrafos */
+.columna p.caja {
+  border: 2px solid #ff5500;
+  border-radius: 0px; /* Bordes sin redondear */
+  height: 80px;
+  display: grid; /* Usa grid para centrar el texto */
+  justify-content: center; /* Centra horizontalmente el texto */
+  align-items: center; /* Centra verticalmente el texto */
+  padding: 5px; /* Espacio interno */
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: justify;
+}
