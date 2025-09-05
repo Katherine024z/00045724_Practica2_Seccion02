@@ -1,1 +1,3 @@
-# 00045724_Practica2_Seccion02
+Actualice la página en su navegador y pregúntese 
+¿Hay cambios en la visualización del sitio web? Porqué se dan estos cambios entre tan pocas líneas de diseño CSS. 
+Estos cambios se dan debido a que flexbox trabaja en una dimensión y se encarga de distribuir el espacio entre elementos hijos en una dirección (al no haber más espacio para ubicar más elementos, se salta a la siguiente fila) mientras que grid trabaja en dos dimensiones (filas y columnas en simultáneo) y los elementos se ubican en la cuadricula establecida dando una ubicación exacta de cada ítem en la cuadrícula, con tamaños definidos con medidas o proporciones (como fr).
